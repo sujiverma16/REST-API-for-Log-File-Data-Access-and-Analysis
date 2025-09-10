@@ -1,0 +1,10 @@
+-> Steps to Run the FastAPI Server
+
+1. Install Python and required dependencies/Interpreters 
+	-Make sure Python is installed on your system.
+
+2. Install FastAPI and Uvicorn
+	-Run the following command in your terminal: pip install fastapi uvicorn
+
+3. Run the FastAPI server
+	-Use the command below in your terminal to start the server: uvicorn fastapi_log_api:app --reload --host 0.0.0.0 --port 8000
